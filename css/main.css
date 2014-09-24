@@ -1,0 +1,77 @@
+body{
+	background: purple;
+}
+
+
+/*
+
+NAV
+
+*/
+
+nav.main{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0; 
+	left: 0;
+	bottom: 0;
+}
+@media(max-width: 768px){
+	nav.main{
+		position: relative;
+		width: 100%;
+	}
+}
+nav.main > ul{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding:65px 0;
+}
+@media(max-width: 768px){
+	nav.main > ul{
+		padding: 20px 0;
+		border: 0;
+	}
+}
+.nav>li>a{
+	color: #ccc;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: #222;
+}
+
+/*
+
+ARTICLE 
+
+*/
+article.main{
+	background: rgba(255,255,255,.5);
+}
+/*.no-rgba article.main{ // No RGBA, no problem!
+	background: red;
+}*/
+
+
+/*
+
+CAROUSEL
+
+*/
+.carousel .item img{
+	width: 100%;
+	height: auto;
+}
+#background-image{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+}
+#background-image.bio{
+	background-color: yellow;
+}
+#background-image.events{
+	background-color: green;	
+}
