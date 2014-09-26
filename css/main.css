@@ -1,6 +1,6 @@
-body{
+/*body{
 	background: purple;
-}
+}*/
 
 
 /*
@@ -10,7 +10,7 @@ NAV
 */
 
 nav.main{
-	background: rgba(0,0,0,.8);
+	background: rgba(0,0,0,.7);
 	position: fixed;
 	top: 0; 
 	left: 0;
@@ -68,10 +68,37 @@ CAROUSEL
 	left:0;
 	right:0;
 	bottom: 0;
+	height: 100%;
+
 }
 #background-image.bio{
-	background-color: yellow;
+	background-color: pink;
 }
 #background-image.events{
-	background-color: green;	
+	   background: url(../images/blue_lights.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; /*Opera 10+supported*/
+        background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+#background-image.demo{
+	background: url(../images/concert_hands.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; /*Opera 10+supported*/
+        background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+#background-image.gallery{
+	background: url(../images/tufted_texture.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; /*Opera 10+supported*/
+        background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
+#background-image.contact{
+	background: url(../images/velvety_red.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; /*Opera 10+supported*/
+        background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
 }
