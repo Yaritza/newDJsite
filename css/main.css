@@ -46,7 +46,7 @@ ARTICLE
 
 */
 article.main{
-	background: rgba(255,255,255,.5);
+	/*background: rgba(255,255,255,.5);*/
 }
 /*.no-rgba article.main{ // No RGBA, no problem!
 	background: red;
