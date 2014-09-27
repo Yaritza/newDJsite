@@ -71,6 +71,13 @@ CAROUSEL
 	height: 100%;
 
 }
+#background-image.index{
+	background: url(../images/turn_table.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; /*Opera 10+supported*/
+        background-size: cover; /*Firefox 4 supports non-vendor prefixed version*/
+}
 #background-image.bio{
 	background-color: pink;
 }
