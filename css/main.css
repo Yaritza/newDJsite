@@ -50,7 +50,9 @@ article {
 /*.no-rgba article.main{ // No RGBA, no problem!
 	background: red;
 }*/
-
+.transparency {
+	background: rgba(255,255,255,.5);
+}
 
 /*
 
@@ -69,7 +71,7 @@ CAROUSEL
 	bottom: 0;
 	height: 100%;
 }
-#background-image.index{
+#background-image.landing_page{
 	background: url(../images/turn_table.jpg) no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
