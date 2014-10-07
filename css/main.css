@@ -1,6 +1,7 @@
-/*body{
-	background: purple;
-}*/
+body{
+	height: 100%;
+	width: 100%;
+}
 
 
 /*
@@ -10,7 +11,7 @@ NAV
 */
 
 nav.main{
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,.8);
 	position: fixed;
 	top: 0; 
 	left: 0;
@@ -51,9 +52,23 @@ article {
 	background: red;
 }*/
 .transparency {
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.7);
+	min-height: 50%;
+	vertical-align: middle;
+	padding: 20px;
 }
 
+.custom-size {
+	min-width: 58.3%;
+}
+#black {
+background: rgba(0,0,0,.5);
+color: white;
+ }
+
+/*.vertical-align {
+	margin-top: 90px;
+}
 /*
 
 CAROUSEL
