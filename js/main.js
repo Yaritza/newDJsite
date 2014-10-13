@@ -17,3 +17,9 @@ $(document).ready(function(){
 	nav();
 
 });
+
+
+// $.ajax("/newDJsite/events.html").
+// success(function(html){
+//   $('.main-body').html(html);
+// })
